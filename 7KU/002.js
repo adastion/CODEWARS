@@ -15,10 +15,12 @@
 function friend(friends) {
   return friends
   .map((item) => item)
-  .filter((item) => (isNaN(item) && item.length <= 4 && !item.includes(' ') ? item : !item));
+  .filter((item) => (isNaN(item) && item.length <= 4 && !item.includes(' ') && item[0] == item[0].toUpperCase() ? item : !item));
 }
 
-  console.log(friend(["Ryan", "Kieran", "Mark"])); //["Ryan", "Mark"]
-  console.log(friend(["Ryan", "Jimmy", "123", "4", "Cool Man"])); // ["Ryan"]
-  console.log(friend(["Jimm", "Cari", "aret", "truehdnviegkwgvke", "sixtyiscooooool"])); // ["Jimm", "Cari", "aret"]
-  console.log(friend(["Love", "Your", "Face", "1"])); // ["Love", "Your", "Face"]
+  // console.log(friend(["Ryan", "Kieran", "Mark"])); //["Ryan", "Mark"]
+  // console.log(friend(["Ryan", "Jimmy", "123", "4", "Cool Man"])); // ["Ryan"]
+  // console.log(friend(["Jimm", "Cari", "aret", "truehdnviegkwgvke", "sixtyiscooooool"])); // ["Jimm", "Cari", "aret"]
+  // console.log(friend(["Love", "Your", "Face", "1"])); // ["Love", "Your", "Face"]
+
+  // console.log(isNaN(.123))

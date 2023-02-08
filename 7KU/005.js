@@ -7,4 +7,4 @@ function descendingOrder(n) {
   }
 }
 
-console.log(descendingOrder(123456789));
+// console.log(descendingOrder(123456789));

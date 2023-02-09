@@ -9,3 +9,4 @@ import './7KU/006.js';
 import './7KU/007.js';
 import './7KU/008.js';
 import './7KU/009.js';
+import './7KU/010.js';

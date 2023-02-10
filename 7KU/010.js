@@ -1,3 +1,5 @@
 function getAge(inputString) {
-  return parseInt(inputString) < 10 ? parseInt(inputString) : null;
+  return Number(inputString[0]);
 }
+
+console.log(getAge('4 years old'));

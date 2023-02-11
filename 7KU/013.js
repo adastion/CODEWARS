@@ -3,4 +3,4 @@ function printerError(s) {
   return s.length - aToM.length + '/' + s.length;
 }
 
-console.log(printerError('aaaxbbbbyyhwawiwjjjwwm'));
+// console.log(printerError('aaaxbbbbyyhwawiwjjjwwm'));

@@ -14,11 +14,11 @@ function getGrade(s1, s2, s3) {
   }
 }
 
-console.log(getGrade(70, 70, 100)); 
-console.log(getGrade(82, 85, 87)); 
-console.log(getGrade(84, 79, 85)); 
-console.log(getGrade(89, 89, 90)); 
+// console.log(getGrade(70, 70, 100)); 
+// console.log(getGrade(82, 85, 87)); 
+// console.log(getGrade(84, 79, 85)); 
+// console.log(getGrade(89, 89, 90)); 
 
-console.log(getGrade(70, 70, 70)); 
-console.log(getGrade(75, 70, 79)); 
-console.log(getGrade(60, 82, 76)); 
+// console.log(getGrade(70, 70, 70)); 
+// console.log(getGrade(75, 70, 79)); 
+// console.log(getGrade(60, 82, 76)); 

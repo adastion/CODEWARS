@@ -8,5 +8,5 @@ function arrayDiff(a, b) {
   return res;
 }
 
-console.log(arrayDiff([1, 2], [1])); //[2], 'a was [1,2], b was [1]');
-console.log(arrayDiff([1, 2, 2], [1])); //[2, 2], 'a was [1,2,2], b was [1]');
+// console.log(arrayDiff([1, 2], [1])); //[2], 'a was [1,2], b was [1]');
+// console.log(arrayDiff([1, 2, 2], [1])); //[2, 2], 'a was [1,2,2], b was [1]');

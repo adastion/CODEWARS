@@ -14,5 +14,5 @@ function duplicateEncode(word) {
   return res.join('');
 }
 
-console.log(duplicateEncode('din')); //'(((';
-console.log(duplicateEncode('recede')); //'()()()';
+// console.log(duplicateEncode('din')); //'(((';
+// console.log(duplicateEncode('recede')); //'()()()';

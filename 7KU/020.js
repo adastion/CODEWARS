@@ -1,13 +1,21 @@
-function abbrevName(name) {
+// function abbrevName(name) {
 
-  let arrN = [];
-  arrN.push(name[0].toUpperCase() + '.');
-  let arr = name
-    .split('')
-    .map((item, i, a) => (item === ' ' ? a[i + 1] : null))
-    .filter((item) => item !== null);
-  arrN.push(arr[0].toUpperCase())
-  return arrN.join('');
+//   let arrN = [];
+//   arrN.push(name[0].toUpperCase() + '.');
+//   let arr = name
+//     .split('')
+//     .map((item, i, a) => (item === ' ' ? a[i + 1] : null))
+//     .filter((item) => item !== null);
+//   arrN.push(arr[0].toUpperCase())
+//   return arrN.join('');
+// }
+
+
+
+function abbrevName(name) {
+  debugger
+  var nameArray = name.split(' ');
+  return (nameArray[0][0] + '.' + nameArray[1][0]).toUpperCase();
 }
 
    console.log(abbrevName('Sam Harris'))  // 'S.H');

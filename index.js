@@ -23,3 +23,4 @@ import './7KU/020.js';
 import './7KU/021.js';
 import './7KU/022.js';
 import './7KU/023.js';
+import './7KU/024.js';
